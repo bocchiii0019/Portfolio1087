@@ -40,6 +40,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 150px;
 }
 
 .Pic1 img {
@@ -63,7 +64,7 @@ nav {
 
 .Pic2 {
   display: flex;
-  margin-top: 20px;
+  margin-top: 50px;
   
   object-fit: cover;
 }
@@ -102,4 +103,63 @@ nav {
 .Pic3 img {
   max-width: 46%;
   height: auto;
+}
+
+.mycontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 20px;
+  font-family: 'Mansalva';
+  font-size: 40px;
+  background-color: #252525;
+  color: #fff;
+}
+
+.mycontent h2 {
+  margin: 20 px;
+  padding: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+  font-family: 'Mansalva';
+  font-size: 30px;
+  background-color: #252525;
+  color: #fff;
+}
+
+.info1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+  font-family: 'Mansalva';
+  font-size: 30px;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.pic4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+  font-family: 'Mansalva';
+  font-size: 30px;
+  background-color: #252525;
+  color: #fff;
+}
+
+.pic4 img {
+  max-width: 550px;
+  height: auto;
+  border-radius: 50%;
 }
