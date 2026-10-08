@@ -173,8 +173,8 @@ nav {
 .Pic3 img {
   max-width: 46%;
   height: auto;
+  cursor: zoom-in; 
 }
-
 
 .info {
   display: grid;
