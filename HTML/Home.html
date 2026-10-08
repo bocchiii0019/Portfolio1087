@@ -11,45 +11,80 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Lexend:wght@100..900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mansalva&family=Oooh+Baby&family=Palette+Mosaic&family=Pangolin&family=Reenie+Beanie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Lexend:wght@100..900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mansalva&family=McLaren&family=Oooh+Baby&family=Palette+Mosaic&family=Pangolin&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <script src="./js.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <a class="logo" href="#">JJ</a>
+        <a class="logo" href="Home.html">JJ</a>
         <nav class="nav">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+            <a href="Home.html">home</a>
+            <a href="AboutMe.html">aboutME</a>
+            <a href="#work">work</a>
         </nav>
     </header>
-    
+
     <div class="Pic1">
-        <img src="../pic/IMG_0110.PNG" alt="Portfolio Picture">
+        <img src="../pic/IMG_0126.PNG" alt="Portfolio Picture">
     </div>
 
     <div class="ME">
         <div class="Pic2">
-            <img src="../pic/IMG_0113.PNG" alt="Profile Picture">
+            <img src="../pic/IMG_0117.PNG" alt="Profile Picture">
         </div>
         <div class="AboutME">
             <div class="Hi">
+                <h1>
+                    Hi! <span>I'm Jaruwannnn</span>
+                </h1>
                 <p>
-                    Hi, my name is Jan. I am a student at the University of Washington Bothell. I am currently studying Computer Science and I am interested in web development and software engineering. I have experience with HTML, CSS, JavaScript, and Python. I am also familiar with React and Node.js. I am passionate about learning new technologies and improving my skills. I am looking for opportunities to gain more experience in the field of web development and software engineering.
+                    ยินดีที่ได้รู้จักค่ะ<br>
+                    เราเป็นนักศึกษามหาวิทยาลัยพระจอมเกล้าธนบุรี<br>
+                    สาขาเทคโนโลยีมีเดีย<br>
+                    เอกนวัตกรรมมีเดียทางการแพทย์ ปีที่ 3 ค่ะ
                 </p>
-            </div>  
-            <div class="ButtonToAboutMe"
-                <a href="contact.html" id="btToMe">About Me!</a>
-            </div>    
+            </div>
+            <div class="ButtonToAboutMe">
+                <a href="AboutMe.html" class="btToMe">aboutME!</a>
+            </div>
         </div>
     </div>
 
-    <div class="mycontent">
-        <div class="mycontent1">
-            <h2>My Content!</h2>
+    <div class="work-section" id="work">
+        <div class="cards">
+            <a href="assignment.html" class="card">
+                <div class="card-image">
+                    <img src="../pic/04.png" alt="Assignment in class">
+                </div>
+                <div class="card-title">
+                    assignment<br>
+                    in class
+                </div>
+            </a>
+            <a href="animation.html" class="card">
+                <div class="card-image">
+                    <img src="../pic/nok.png" alt="Animation">
+                </div>
+                <div class="card-title">
+                    animation
+                </div>
+            </a>
+            <a href="designGame.html" class="card">
+                <div class="card-image">
+                    <img src="../pic/game3.png" alt="Design Game">
+                </div>
+                <div class="card-title">
+                    2D Game<br>Art
+                </div>
+            </a>
         </div>
     </div>
 
-    
+    <div class="footer-wave"></div>
 
+    <script src="./script.js" defer></script>
 </body>
 </html>

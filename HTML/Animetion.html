@@ -1,20 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>animetion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mansalva&family=Oooh+Baby&family=Palette+Mosaic&family=Pangolin&family=Reenie+Beanie&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Lexend:wght@100..900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mansalva&family=Oooh+Baby&family=Palette+Mosaic&family=Pangolin&family=Reenie+Beanie&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/Animation.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=McLaren&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS.css">
 </head>
 
 <body>
-    
+    <header class="header">
+        <a class="logo" href="Home.html">JJ</a>
+        <nav class="nav">
+            <a href="Home.html">home</a>
+            <a href="AboutMe.html">aboutME</a>
+            <a href="Home.html#work" class="active">work</a>
+        </nav>
+    </header>
+
+    <section class="page-head">
+        <h1 class="page-title">animetion!</h1>
+    </section>
+
+    <main class="work-list">
+
+        <section class="work-row" id="item-1">
+            <div class="video">
+                <img class="video-img" src="../pic/nok.png" alt="pakkkkk VS kak">
+            </div>
+            <div class="work-info">
+                <h2 class="work-name">
+                    “การต่อสู้กันของนกเจ้าถิ่นนามว่า pakkkkk<br>และนกต่างถิ่น kak”
+                </h2>
+                <a href="https://youtu.be/g4-JRkXTGpg" class="work-link" target="_blank" rel="noopener noreferrer">LINK!</a>
+            </div>
+        </section>
+
+        <section class="work-row" id="item-2">
+            <div class="video">
+                <img class="video-img" src="../pic/PonP.png" alt="the Prince on the Plate">
+            </div>
+            <div class="work-info">
+                <h2 class="work-name">“the Prince<br>on<br>the Plate”</h2>
+                <a href="https://youtu.be/VNc2YDQf0_M" class="work-link" target="_blank" rel="noopener noreferrer">LINK!</a>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="footer-wave"></div>
+
+    <script src="./script.js" defer></script>
 </body>
 </html>
